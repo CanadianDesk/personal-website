@@ -15,7 +15,8 @@
     justify-content: center;
     align-items: center;
     height: 100svh;
-    font-size: 1.5vw;
+    font-size: 5vw;
+    row-gap: 3vh;
 }
 
 a:link, a:visited {
@@ -24,4 +25,11 @@ a:link, a:visited {
 
 a:hover {
     color: black;
+}
+
+@media (min-width: 435px) {
+    .wrapper {
+        height: 100svh;
+        font-size: 1.5vw;
+    }
 }
